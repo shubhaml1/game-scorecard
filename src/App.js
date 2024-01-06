@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import UserInput from "./UserInput";
 import UserList from "./UserList";
+import logo from "./logo.svg";
 
 const App = () => {
   const [users, setUsers] = useState([
@@ -16,7 +17,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="logo.svg" className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <h1 className="App-title">ReactND - Coding Practice</h1>
         <p>Exercise 1 - All Together</p>
       </header>
