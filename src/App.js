@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import UserInput from "./UserInput";
+import UserList from "./UserList";
 
-function App() {
+const App = () => {
+  const [users, setUsers] = useState([
+    { fname: "Shubham", lname: "Singh", username: "Shubham007", games: 5 },
+    { fname: "Nikki", lname: "Singh", username: "Nikki99", games: 4 },
+  ]);
+
+  const saveUser = (user) => {
+    setUsers((prevUsers) => [...prevUsers, user]);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src="logo.svg" className="App-logo" alt="logo" />
+        <h1 className="App-title">ReactND - Coding Practice</h1>
+        <p>Exercise 1 - All Together</p>
       </header>
+      <main className="App-main">
+        <h2>User Game List</h2>
+        <div className="container">
+          <UserInput users={users} saveUser={saveUser} />
+          <UserList users={users} />
+        </div>
+      </main>
     </div>
   );
-}
+};
 
 export default App;
