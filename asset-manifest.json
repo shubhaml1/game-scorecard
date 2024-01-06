@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/game-scorecard/static/css/main.288e99e3.css",
+    "main.js": "/game-scorecard/static/js/main.e6ceda05.js",
+    "static/js/787.0c6ee32e.chunk.js": "/game-scorecard/static/js/787.0c6ee32e.chunk.js",
+    "index.html": "/game-scorecard/index.html",
+    "main.288e99e3.css.map": "/game-scorecard/static/css/main.288e99e3.css.map",
+    "main.e6ceda05.js.map": "/game-scorecard/static/js/main.e6ceda05.js.map",
+    "787.0c6ee32e.chunk.js.map": "/game-scorecard/static/js/787.0c6ee32e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.288e99e3.css",
+    "static/js/main.e6ceda05.js"
+  ]
+}
