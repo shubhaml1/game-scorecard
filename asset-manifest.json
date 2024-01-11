@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/game-scorecard/static/css/main.288e99e3.css",
-    "main.js": "/game-scorecard/static/js/main.e6ceda05.js",
-    "static/js/787.0c6ee32e.chunk.js": "/game-scorecard/static/js/787.0c6ee32e.chunk.js",
-    "index.html": "/game-scorecard/index.html",
-    "main.288e99e3.css.map": "/game-scorecard/static/css/main.288e99e3.css.map",
-    "main.e6ceda05.js.map": "/game-scorecard/static/js/main.e6ceda05.js.map",
-    "787.0c6ee32e.chunk.js.map": "/game-scorecard/static/js/787.0c6ee32e.chunk.js.map"
+    "main.css": "/chatapp/static/css/main.2974937a.css",
+    "main.js": "/chatapp/static/js/main.5137cec6.js",
+    "static/js/787.0c6ee32e.chunk.js": "/chatapp/static/js/787.0c6ee32e.chunk.js",
+    "static/media/logo.svg": "/chatapp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chatapp/index.html",
+    "main.2974937a.css.map": "/chatapp/static/css/main.2974937a.css.map",
+    "main.5137cec6.js.map": "/chatapp/static/js/main.5137cec6.js.map",
+    "787.0c6ee32e.chunk.js.map": "/chatapp/static/js/787.0c6ee32e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.288e99e3.css",
-    "static/js/main.e6ceda05.js"
+    "static/css/main.2974937a.css",
+    "static/js/main.5137cec6.js"
   ]
 }
