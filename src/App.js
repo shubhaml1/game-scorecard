@@ -6,7 +6,7 @@ import logo from "./logo.svg";
 
 const App = () => {
   const [users, setUsers] = useState([
-    { fname: "Shubham", lname: "Singh", username: "Shubham007", games: 5 },
+    { fname: "Shubham", lname: "Singh", username: "Shubham07", games: 5 },
     { fname: "Nikki", lname: "Singh", username: "Nikki99", games: 4 },
   ]);
 
