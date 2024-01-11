@@ -76,7 +76,7 @@ const UserInput = ({ users, saveUser }) => {
           {!unique && <span className="red">Username must be unique!</span>}
         </label>
         <br />
-        <button disabled={!fieldsAreValid()}>Add</button>
+        <button class = "add-button" disabled={!fieldsAreValid()}>Add</button>
       </form>
     </div>
   );
