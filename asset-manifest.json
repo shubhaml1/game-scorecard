@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/game-scorecard/static/css/main.a0f38590.css",
+    "main.css": "/game-scorecard/static/css/main.de064147.css",
     "main.js": "/game-scorecard/static/js/main.ce48ebe0.js",
     "static/js/787.0c6ee32e.chunk.js": "/game-scorecard/static/js/787.0c6ee32e.chunk.js",
     "static/media/logo.svg": "/game-scorecard/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/game-scorecard/index.html",
-    "main.a0f38590.css.map": "/game-scorecard/static/css/main.a0f38590.css.map",
+    "main.de064147.css.map": "/game-scorecard/static/css/main.de064147.css.map",
     "main.ce48ebe0.js.map": "/game-scorecard/static/js/main.ce48ebe0.js.map",
     "787.0c6ee32e.chunk.js.map": "/game-scorecard/static/js/787.0c6ee32e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0f38590.css",
+    "static/css/main.de064147.css",
     "static/js/main.ce48ebe0.js"
   ]
 }
