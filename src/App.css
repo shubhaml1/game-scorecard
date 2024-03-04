@@ -144,6 +144,20 @@ form button {
     align-content: flex-start;
   }
 }
+@media screen and (max-width: 400px) {
+  .App-main {
+    margin: 0 0;
+  }
+  main {
+    padding: 0 12px;
+  }
+
+  thead td {
+    border-bottom: 1px #aaaaaa solid;
+    padding-right: 8px;
+  }
+
+}
 
 
 .add-button {
